@@ -1,0 +1,38 @@
+================================================================================
+                    NOVA SPACEWORKS INTERNAL FLIGHT HANDBOOK (2026)
+================================================================================
+
+1. PROJECT OVERVIEW
+Project Nova is an autonomous deep-space probe initiative developed by Nova Spaceworks.
+Its primary objective is the exploration of subterranean ice fissures on Jupiter's moon, Europa.
+The mission launch date is formally scheduled for October 14, 2027, from Launch Complex 39A.
+
+2. POWER SYSTEMS & PROPULSION
+- Power Plant: The probe utilizes a dual NextGen Radioisotope Thermoelectric Generator (RTG-X2).
+- Operating Lifetime: The RTG-X2 is rated for 18 years of continuous power output at 450 Watts.
+- Propulsion: Primary transit propulsion uses the Xenon-Hall Ion Drive "Aeon-4", capable of
+  delivering continuous low-thrust efficiency with a specific impulse of 4,200 seconds.
+- Secondary Maneuvering: Cold-gas nitrogen thrusters are used for delicate proximity maneuvers.
+
+3. SCIENTIFIC INSTRUMENT SUITE
+- DeepCryo Radar (DCR): Sub-surface penetration radar operating at 15 MHz and 50 MHz frequencies,
+  capable of imaging liquid water layers up to 4 kilometers beneath solid surface ice.
+- SpectroChroma Mass Spectrometer: Real-time molecular analysis of plume vapors with sensitivity
+  up to 1 part per billion.
+- MicroLIDAR Array: Real-time 3D topographical reconstruction for autonomous obstacle avoidance.
+
+4. AUTONOMOUS FLIGHT COMPUTER
+- Core Processor: Radiation-hardened Dual Quad-Core RAD750 running at 200 MHz.
+- Flight Software: NovaOS v4.2, built on microkernel architecture with automated failover.
+- Data Storage: 4 Terabytes of error-correcting solid-state memory.
+
+5. MISSION PERSONNEL DIRECTORY
+- Program Director: Dr. Marcus Vance (marcus.vance@novaspaceworks.internal)
+- Lead Systems Architect: Elena Rostova (elena.rostova@novaspaceworks.internal)
+- Chief Propulsion Engineer: Tariq Mansoor (tariq.m@novaspaceworks.internal)
+- Lead Astrobiologist: Dr. Priya Sharma (priya.sharma@novaspaceworks.internal)
+
+6. EMERGENCY SAFE MODES
+In the event of attitude loss exceeding 15 degrees from Earth point, the probe automatically
+enters "Safe Mode Sun-Lock" within 120 seconds, spinning up reaction wheels to stabilize and
+broadcasting a low-gain beacon signal at 2.2 GHz.
